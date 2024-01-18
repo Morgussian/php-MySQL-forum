@@ -1,0 +1,15 @@
+http://www.youtube.com/watch?v=nu2m9HaeVV4
+
+terminé!
+
+Modifs par rapport au projet Frenchoder:
+
+-Pseudo du user affiché dans le header si connecté. (navbar.php)
+-Modale de suppression de question en deux temps (singleUserQuestion.php, index.php)
+-recherche de mots clés dans les titres, puis dans les questions si pas trouvé (allQuestionsAction.php)
+-L'user peut modifier ou supprimer une de ses questions directement depuis la page d'index (index.php)
+-Quand l'user soumet une réponse, il est redirigé vers une page thx. Seul moyen d'empècher des variables $_POST de reposter au refresh...Une galère!
+    postAnswerAction.php
+    thxAction.php
+    thx.php
+-permettre à l'user de supprimer son compte
